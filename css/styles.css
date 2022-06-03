@@ -187,8 +187,18 @@ a {
    top: 1635px;
    outline: 1px solid red;
    text-align: center;
+ }
 
-
+ .team-li {
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+ outline: 1px solid red;
+ }
+ .main-div {
+   background: #2F303A;
+   
  }
 .main-btn:hover,
 .main-btn:focus {
