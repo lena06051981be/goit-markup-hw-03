@@ -13,6 +13,7 @@ margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
 outline: 1px solid red;
+
 }
 
 /* птички твиттер перед ссылками */
@@ -165,9 +166,29 @@ a {
  .wrap {
    display: flex;
    justify-content: center;
-   justify-content: space-around;
+   justify-content: space-around;     
+ }
+.team {
+  text-align: center;
+}
+
+ .description-li {
+   width: 270px;
+   height: 101px;
+   left: 215px;
+   top: 774px;
+   outline: 1px solid red;
    
-   
+ }
+ .li {
+   width: 270px;
+    height: 368px;
+   left: 215px;
+   top: 1635px;
+   outline: 1px solid red;
+   text-align: center;
+
+
  }
 .main-btn:hover,
 .main-btn:focus {
