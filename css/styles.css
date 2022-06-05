@@ -48,13 +48,20 @@ a::before {
 
 /* animation logo */
 
-.header-logo:hover.header-logo::before,
-.footer-logo:hover.footer-logo::before {
+.header-logo:hover.header-logo::before {
   content: "";
   width: 30px;
   height: 30px;
   display: inline-block;
   background-image: url(../images/icons8-twitter.gif);
+  vertical-align: top;
+}
+.footer-logo:hover.footer-logo::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-image: url(../images/icons8-twitter-black.gif);
   vertical-align: top;
 }
 
@@ -100,6 +107,21 @@ button {
 
 /* header */
 
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.header .container,
+.header-nav,
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-header {
+  display: flex;
+  margin-left: auto;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -108,6 +130,7 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+  margin-right: 93px;  
 }
 
 .header-logo-first,
@@ -115,6 +138,10 @@ button {
   color: #2196f3;
 }
 
+.header-item:not(:last-child) {
+  margin-right: 50px;
+  padding: 32px 0;
+}
 .header-text {
   font-weight: 500;
   font-size: 14px;
@@ -123,9 +150,13 @@ button {
 }
 .header-item-link {
   color: var(--main-color);
+  
 }
 .header-link {
   color: var(--header-link-color);
+}
+.contact-item:not(:first-child) {
+  margin-left: 50px;
 }
 
 .header-item-link:hover,
@@ -147,6 +178,10 @@ button {
 
 /* main */
 
+.main-box {
+  background: #2f303a;
+}
+
 .main {
   font-weight: 900;
   font-size: 44px;
@@ -156,14 +191,16 @@ button {
   text-transform: uppercase;
   color: var(--main-tittle-color);
   background: var(--main-background-color);
+  margin: 0 auto;
+  max-width: 696px;
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .main-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -175,8 +212,12 @@ button {
   margin: 0 auto;
   display: block;
   /* выровнять кнопку по центру */
+  min-width: 200px;
+  height: 50px;
 }
-
+.div-btn {
+  padding-bottom: 200px;
+}
 .main-btn:hover,
 .main-btn:focus {
   background: #188ce8;
@@ -261,6 +302,9 @@ h1[class="visually-hidden"] {
   margin-right: var(--typical-margin);
 }
 
+.section-team {
+  background: #f5f4fa;
+}
 .photo {
   padding-top: 94px;
 }
@@ -286,19 +330,19 @@ h1[class="visually-hidden"] {
   font-size: 16px;
   line-height: 1.19;
   color: var(--main-color);
+  padding: 30px 0 10px 0;
 }
 .job-title {
   font-size: 16px;
   line-height: 1.19;
   color: var(--job-title-color);
+  padding-bottom: var(--typical-margin);
 }
 
 /* footer */
-
-.main-div {
-  background: #2f303a;
+.footer {
+  background: #2F303A;
 }
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -309,9 +353,17 @@ h1[class="visually-hidden"] {
   color: #ffffff;
   /* background: #2f303a; */
 }
+
+.div-footer-logo {
+padding: 60px 0 20px 0;
+}
+.footer-item:not(:last-child) {
+margin-bottom: 9px;
+}
 .contacts {
   background: var(--footer-background-color);
   font-style: normal;
+  padding-bottom: 60px;
 }
 .contact {
   font-weight: 400;
@@ -329,6 +381,10 @@ h1[class="visually-hidden"] {
 }
 
 /* Портфолио */
+
+.section-potfolio {
+margin: 94px 0;
+}
 
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
@@ -359,6 +415,17 @@ h1[class="visually-hidden"] {
 ul.portfolio-btn-list li {
   display: inline-block;
 }
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services-item:not(:nth-child(3n+3))  {
+  outline: 1px solid red;
+  margin-right: var(--typical-margin);
+  margin-bottom: var(--typical-margin);
+
+  
+}
 
 .review {
   font-weight: 700;
@@ -366,6 +433,7 @@ ul.portfolio-btn-list li {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  outline: 1px dashed red;
 }
 .speciality {
   font-size: 16px;

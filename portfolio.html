@@ -24,77 +24,73 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header-link">
+    <header class="header">
       <div class="container">
-      <nav>
-        <a href="./index.html" class="header-logo"
-          ><span class="header-logo-first">Web</span>Studio
-        </a>
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="./index.html" class="header-item-link header-text"
-              >Студия</a
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo"
+            ><span class="header-logo-first">Web</span>Studio
+          </a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="./index.html" class="header-item-link header-text"
+                >Студия</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-item-link header-text"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="" class="header-item-link header-text">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-header">
+          <li class="contact-item">
+            <a
+              href="mailto:info@devstudio.com"
+              title="E-mail"
+              class="header-link header-text"
+              >info@devstudio.com</a
             >
           </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-item-link header-text"
-              >Портфолио</a
+          <li class="contact-item">
+            <a
+              href="tel:+380961111111"
+              title="Mobile phone"
+              class="header-link header-text"
+              >+38 096 111 11 11</a
             >
-          </li>
-          <li class="header-item">
-            <a href="" class="header-item-link header-text">Контакты</a>
           </li>
         </ul>
-        
-      </nav>
-      <ul>
-        <li>
-          <a
-            href="mailto:info@devstudio.com"
-            title="E-mail"
-            class="header-link header-text"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a
-            href="tel:+380961111111"
-            title="Mobile phone"
-            class="header-link header-text"
-            >+38 096 111 11 11</a
-          >
-        </li>
-        </div>
-      </ul>
+      </div>
     </header>
     <!-- main -->
     <main>
       <!-- прячем заголовок от пользователя, Google  видит заголовок -->
       <h1 class="visually-hidden">Портфолио</h1>
-      <section>
-        
+      <section class="section-potfolio">
         <div class="container">
         <ul class="portfolio-btn-list">
-          
-          <li>
+          <li class="portfolio-btn-item">
             <button type="button" class="portfolio-btn">Все</button>
           </li>
-          <li>
+          <li class="portfolio-btn-item">
             <button type="button" class="portfolio-btn">Веб-сайты</button>
           </li>
-          <li>
+          <li class="portfolio-btn-item">
             <button type="button" class="portfolio-btn">Приложения</button>
           </li>
-          <li>
+          <li class="portfolio-btn-item">
             <button type="button" class="portfolio-btn">Дизайн</button>
           </li>
-          <li>
+          <li class="portfolio-btn-item">
             <button type="button" class="portfolio-btn">Маркетинг</button>
-          </li>
-          
+          </li>          
         </ul>
-        <ul>
-          <li>
+        <ul class="services-list">
+          <li class="services-item">
             <img
               src="./images/portfolio_services_1.jpg"
               alt="Technocarck"
@@ -103,7 +99,7 @@
             <h2 class="review">Технокряк</h2>
             <p class="speciality">Веб-сайт</p>
           </li>
-          <li>
+          <li class="services-item">
             <img
               src="./images/portfolio_services_2.jpg"
               alt="Poster NewOrlean"
@@ -112,7 +108,7 @@
             <h2 class="review">Постер New Orlean vs Golden Star</h2>
             <p class="speciality">Дизайн</p>
           </li>
-          <li>
+          <li class="services-item">
             <img
               src="./images/portfolio_services_3.jpg"
               alt="Seafood"
@@ -121,7 +117,7 @@
             <h2 class="review">Ресторан Seafood</h2>
             <p class="speciality">Приложение</p>
           </li>
-          <li>
+          <li class="services-item">
             <img
               src="./images/portfolio_services_4.jpg"
               alt="Project Prime"
@@ -130,7 +126,7 @@
             <h2 class="review">Проект Prime</h2>
             <p class="speciality">Маркетинг</p>
           </li>
-          <li>
+          <li class="services-item">
             <img
               src="./images/portfolio_services_5.jpg"
               alt="Project Boxes"
@@ -139,7 +135,7 @@
             <h2 class="review">Проект Boxes</h2>
             <p class="speciality">Приложение</p>
           </li>
-          <li>
+          <li class="services-item">
             <img
               src="./images/portfolio_services_6.jpg"
               alt="Inspiration"
@@ -148,7 +144,7 @@
             <h2 class="review">Inspiration has no Borders</h2>
             <p class="speciality">Веб-сайт</p>
           </li>
-          <li>
+          <li class="services-item">
             <img
               src="./images/portfolio_services_7.jpg"
               alt="Limited Edition"
@@ -157,7 +153,7 @@
             <h2>Издание Limited Edition</h2>
             <p class="speciality">Дизайн</p>
           </li>
-          <li>
+          <li class="services-item">
             <img
               src="./images/portfolio_services_8.jpg"
               alt="Project LAB"
@@ -166,7 +162,7 @@
             <h2 class="review">Проект LAB</h2>
             <p class="speciality">Маркетинг</p>
           </li>
-          <li>
+          <li class="services-item">
             <img
               src="./images/portfolio_services_9.jpg"
               alt="Business"
@@ -180,31 +176,35 @@
       </section>
     </main>
     <!-- footer -->
-    <footer>
+    <footer class="footer">
       <div class="container">
-      <a href="./index.html" class="footer-logo"
-        ><span class="footer-logo-first">Web</span>Studio
-      </a>
-
-      <address>
-        <ul class="contacts">
-          <li>
-            <a href="" title="address" class="contact"
-              >г.Киев,пр-т Леси Украинки,26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@devstudio.com" title="E-mail" class="contact-e"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380991111111" title="Mobile phone" class="contact-e"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <div class="div-footer-logo">
+        <a href="./index.html" class="footer-logo"
+          ><span class="footer-logo-first">Web</span>Studio
+        </a>
+        </div>
+        <address>
+          <ul class="contacts">
+            <li class="footer-item">
+              <a href="" title="address" class="contact"
+                >г.Киев,пр-т Леси Украинки,26</a
+              >
+            </li>
+            <li class="footer-item">
+              <a
+                href="mailto:info@devstudio.com"
+                title="E-mail"
+                class="contact-e"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <a href="tel:+380991111111" title="Mobile phone" class="contact-e"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
