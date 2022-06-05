@@ -22,8 +22,7 @@ html {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
-  padding-right: 15px;
-  outline: 1px solid red;
+  padding-right: 15px;  
 }
 
 /* птички твиттер перед ссылками */
@@ -85,7 +84,7 @@ button {
 a {
   color: currentColor;
 }
-
+/* Рука-указатель */
 button {
   cursor: pointer;
 }
@@ -267,7 +266,6 @@ h1[class="visually-hidden"] {
   left: 215px;
   top: 774px;
   margin-right: var(--typical-margin);
-  outline: 1px solid red;
 }
 .description-li:last-child {
   margin-right: 0;
@@ -294,7 +292,6 @@ h1[class="visually-hidden"] {
   height: 294px;
   left: 215px;
   top: 1061px;
-  outline: 1px solid red;
 }
 
 .team-li:not(:last-child) {
@@ -316,7 +313,6 @@ h1[class="visually-hidden"] {
   height: 368px;
   left: 215px;
   top: 1635px;
-  outline: 1px solid red;
   text-align: center;
 }
 
@@ -424,22 +420,24 @@ ul.portfolio-btn-list li {
   flex-wrap: wrap;
 }
 .services-item:not(:nth-child(3n + 3)) {
-  outline: 1px solid red;
   margin-right: var(--typical-margin);
   margin-bottom: var(--typical-margin);
 }
 .services-item {
-  border: 1px solid #eeeeee;
-  width: 370px;
-  height: 404px;
+  display: flex;
+  flex-direction: column;
+}
+.div-services {
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .review {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-color);
-  outline: 1px dashed red;
+  color: var(--main-color); 
   padding: 20px 24px 4px 24px;
 }
 .speciality {
