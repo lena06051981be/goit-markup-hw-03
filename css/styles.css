@@ -108,7 +108,7 @@ button {
 /* header */
 
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container,
@@ -130,7 +130,7 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-  margin-right: 93px;  
+  margin-right: 93px;
 }
 
 .header-logo-first,
@@ -150,7 +150,6 @@ button {
 }
 .header-item-link {
   color: var(--main-color);
-  
 }
 .header-link {
   color: var(--header-link-color);
@@ -341,7 +340,7 @@ h1[class="visually-hidden"] {
 
 /* footer */
 .footer {
-  background: #2F303A;
+  background: #2f303a;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -355,10 +354,10 @@ h1[class="visually-hidden"] {
 }
 
 .div-footer-logo {
-padding: 60px 0 20px 0;
+  padding: 60px 0 20px 0;
 }
 .footer-item:not(:last-child) {
-margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 .contacts {
   background: var(--footer-background-color);
@@ -383,7 +382,7 @@ margin-bottom: 9px;
 /* Портфолио */
 
 .section-potfolio {
-margin: 94px 0;
+  margin: 94px 0;
 }
 
 .portfolio-btn {
@@ -401,9 +400,9 @@ margin: 94px 0;
   height: 38px;
   padding: 6px 22px;
 }
- .portfolio-btn-item:not(:last-child)  {
-   margin-right: 8px;
- }
+.portfolio-btn-item:not(:last-child) {
+  margin-right: 8px;
+}
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background: #2196f3;
@@ -424,15 +423,15 @@ ul.portfolio-btn-list li {
   display: flex;
   flex-wrap: wrap;
 }
-.services-item:not(:nth-child(3n+3))  {
+.services-item:not(:nth-child(3n + 3)) {
   outline: 1px solid red;
   margin-right: var(--typical-margin);
-  margin-bottom: var(--typical-margin); 
+  margin-bottom: var(--typical-margin);
 }
 .services-item {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   width: 370px;
-height: 404px;
+  height: 404px;
 }
 .review {
   font-weight: 700;
