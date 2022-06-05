@@ -411,6 +411,7 @@ margin: 94px 0;
 
 .portfolio-btn-list {
   text-align: center;
+  padding-bottom: 34px;
 }
 ul.portfolio-btn-list li {
   display: inline-block;
@@ -422,11 +423,13 @@ ul.portfolio-btn-list li {
 .services-item:not(:nth-child(3n+3))  {
   outline: 1px solid red;
   margin-right: var(--typical-margin);
-  margin-bottom: var(--typical-margin);
-
-  
+  margin-bottom: var(--typical-margin); 
 }
-
+.services-item {
+  border: 2px solid black;
+  width: 370px;
+height: 404px;
+}
 .review {
   font-weight: 700;
   font-size: 18px;
@@ -434,10 +437,12 @@ ul.portfolio-btn-list li {
   letter-spacing: 0.06em;
   color: var(--main-color);
   outline: 1px dashed red;
+  padding: 20px 24px 4px 24px;
 }
 .speciality {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--portfolio-speciality-color);
+  padding: 0 24px 20px 24px;
 }
