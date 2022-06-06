@@ -385,10 +385,7 @@ ul.portfolio-btn-list li {
   margin-right: var(--typical-margin);
   margin-bottom: var(--typical-margin);
 }
-/* .services-item {
-  display: flex;
-  flex-direction: column;
-} */
+
 .img-portfolio {
   display: block;
 }
