@@ -340,7 +340,7 @@ h1[class="visually-hidden"] {
 /* Портфолио */
 
 .section-potfolio {
-  margin: 94px 0;
+  padding: 94px 0;
 }
 
 .portfolio-btn {
@@ -372,7 +372,7 @@ h1[class="visually-hidden"] {
 
 .portfolio-btn-list {
   text-align: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 ul.portfolio-btn-list li {
   display: inline-block;
@@ -380,6 +380,7 @@ ul.portfolio-btn-list li {
 .services-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -30px;
 }
 .services-item:not(:nth-child(3n + 3)) {
   margin-right: var(--typical-margin);
