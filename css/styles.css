@@ -380,7 +380,6 @@ ul.portfolio-btn-list li {
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  /* margin-bottom: -30px; */
 }
 .services-item:not(:nth-child(3n)) {
   margin-right: var(--typical-margin);
